@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target opencv_hw[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/opencv_hw.dir/src/ROSInterface.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_hw.dir/src/opencv_hw.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/opencv_hw.dir/src/ColorFilter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/fri/Documents/julia/catkin_ws/devel/.private/opencv_hw/lib/opencv_hw/opencv_hw[0m
+CMakeFiles/opencv_hw.dir/src/ColorFilter.cpp.o: In function `ColorFilter::showResult()':
+ColorFilter.cpp:(.text+0x182): undefined reference to `cv::imshow(cv::String const&, cv::_InputArray const&)'
+collect2: error: ld returned 1 exit status
+CMakeFiles/opencv_hw.dir/build.make:178: recipe for target '/home/fri/Documents/julia/catkin_ws/devel/.private/opencv_hw/lib/opencv_hw/opencv_hw' failed
+make[2]: *** [/home/fri/Documents/julia/catkin_ws/devel/.private/opencv_hw/lib/opencv_hw/opencv_hw] Error 1
+CMakeFiles/Makefile2:355: recipe for target 'CMakeFiles/opencv_hw.dir/all' failed
+make[1]: *** [CMakeFiles/opencv_hw.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
